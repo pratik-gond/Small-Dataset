@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set OpenAI API key
-openai.api_key="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"
 #openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def categorize_questions(data):
